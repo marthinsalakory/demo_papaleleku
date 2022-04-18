@@ -14,13 +14,10 @@
   <body style="background-color: #ffc300;">
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ebad03;">
         <div class="container-fluid" style="margin-right: 10%;">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
               <div class="row text-center">
                 <div class="col-12">
-                    <img src="google.png" alt="" width="60px">
-                </div>
-                <div class="col-12">
-                    <p class="text-dark">Betapeta.com</p>
+                  <img src="papaleleku1.png" alt="" width="60">
                 </div>
               </div>
             </a>
@@ -30,19 +27,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#TentangKami">Tentang Kami</a>
+                <a class="nav-link" aria-current="page" href="index.html#Produk">Produk</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#Produk">Produk & Jasa</a>
+                <a class="nav-link" onclick="alert('Anda belum login!')" aria-current="page" href="login.html">Keranjang</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Portofolio</a>
+                <a class="nav-link" onclick="alert('Anda belum login!')" aria-current="page" href="login.html">Pembayaran</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Kontak</a>
+                <a class="nav-link" onclick="alert('Anda belum login!')" aria-current="page" href="login.html">DataBase</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="alert('Anda belum login!')" aria-current="page" href="login.html">Profil</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -61,17 +61,19 @@
             <div class="col-sm-12 col-lg-6 mt-5 text-light">
                 <h5 style="color: #c54201;">Welcome</h5>
                 <h1 class="text-center" style="font-size: 85px;">Betapeta.com</h1>
+                <input autofocus class="form-control mt-3" type="text" placeholder="Nama Lengkap">
+                <input class="form-control mt-3" type="number" placeholder="NIK (Nomor Induk Kependudukan)">
                 <input class="form-control mt-3" type="text" placeholder="Username">
                 <input class="form-control mt-3" type="text" placeholder="Password">
-                <button class="btn form-control mt-3 text-light" style="background-color: #ebad03;" type="button">REGISTER AS CONSULTAN</button>
-                <button class="btn form-control mt-3 text-light" style="background-color: #0900a0;" type="button">REGISTER AS CUSTOMER</button>
+                <!-- <button class="btn form-control mt-3 text-light" style="background-color: #ebad03;" type="button">REGISTER AS CONSULTAN</button> -->
+                <button class="btn form-control mt-3 text-light" style="background-color: #0900a0;" type="button">REGISTER</button>
                 <p class="mt-3">Sudah Memiliki Akun?</p>
             </div>
             <div class="col-sm-12 col-lg-3"></div>
           </div>
           <div class="row mt-3 float-end">
               <div class="col-12">
-                  <a href="register.html" class="btn btn-lg btn-info opacity-75">Register</a>
+                  <!-- <a href="register.html" class="btn btn-lg btn-info opacity-75">Register</a> -->
                   <a href="login.html" class="btn btn-lg btn-outline-light">Loging Now</a>
               </div>
           </div>
